@@ -1,0 +1,32 @@
+"Updater"
+{
+	"Information"
+	{
+		"Version"
+		{
+			"Latest"	"1.1
+		}
+		
+		"Notes"	"More info @ ugcleague.com   Changes in 1.0"
+		"Notes"	"Initial build. Will update plugin and files thus forcing download of files"
+	}
+	
+	"Files"
+	{
+
+		"Plugin"	"Path_SM/plugins/UGCUpdater.smx"
+		"Source"	"Path_SM/plugins/UGCUpdater.sp"
+
+		"Plugin"	"/cfg/pure_server_whitelist.txt"
+		"Plugin"  	"/cfg/item_whitelist_ugc_hl.txt"
+		"Plugin"  	"/cfg/item_whitelist_ugc_6v6.txt"
+		"Plugin"  	"/cfg/item_whitelist_ugc_4v4.txt"
+		"Plugin"	"/cfg/ugc_hl_base.cfg"
+		"Plugin"	"/cfg/ugc_6v_base.cfg"
+		"Plugin"	"/cfg/ugc_4v_base.cfg"
+
+		"Plugin"	"/maps/koth_stallone_b2.bsp"
+	}
+}
+
+//Follow the patterns listed above to place files
